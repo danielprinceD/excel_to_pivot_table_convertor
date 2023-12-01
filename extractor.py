@@ -19,7 +19,7 @@ except :
 
 index = input("Enter the index name for pivot table (Case Sensitive) : ")
 columns = input("Enter the column name for pivot table (Case Sensitive) : ")
-values = input("Enter the Value name for pivot table (Case Sensitive) : ")
+values = input("Enter pivot table (Case Sensitive) : ")
 
 # Ask the user to choose a function for the pivot table (Sum / Average / Both)
 
