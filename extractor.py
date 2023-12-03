@@ -12,7 +12,7 @@ try :
     df = pd.read_excel(f'{xl_file}')
 except : 
     print("Enter Valid FileName")
-   
+    exit()
     
 # Ask the user to input names for pivot table index, columns, and values
 
