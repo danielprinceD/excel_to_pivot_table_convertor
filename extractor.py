@@ -27,3 +27,12 @@ function = str(input("Sum / Average / both : ")).lower()
 
 
 # Convert user input to valid pivot table aggregation function
+
+if function == 'sum' : 
+    function = 'sum'
+elif function == 'average' or function == 'mean' : 
+    function = 'mean'
+elif function == 'both' : 
+    function = ['sum','mean']
+else : 
+    print("Enter Valid Option") 
