@@ -15,3 +15,9 @@ except :
     exit()
     
 # Ask the user to input names for pivot table index, columns, and values
+
+
+index = input("Enter the index name for pivot table (Case Sensitive) : ")
+columns = input("Enter the column name for pivot table (Case Sensitive) : ")
+values = input("Enter the Value name for pivot table (Case Sensitive) : ")
+
