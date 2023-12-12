@@ -1,5 +1,5 @@
 import pandas as pd
-import sys,os
+import os
 #import pandas for data
 # Ask the user to input the Excel file name
 
