@@ -1,4 +1,4 @@
-import pandas 
+import pandas as pd
 import sys,os
 #import pandas for data
 # Ask the user to input the Excel file name
@@ -9,7 +9,7 @@ xl_file=str(xl_file)
 # Try to read the Excel file, exit if the file is not found
 
 try : 
-    df = pandas.read_excel(f'{xl_file}')
+    df = pd.read_excel(f'{xl_file}')
 except : 
     print("Enter Valid FileName")
     exit()
