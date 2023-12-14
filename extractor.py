@@ -36,3 +36,9 @@ elif function == 'both' :
     function = ['sum','mean']
 else : 
     print("Enter Valid Option") 
+
+# Remove any trailing whitespaces from the user input
+
+index = str(index).rstrip()
+columns = str(columns).rstrip()
+values = str(values).rstrip()
