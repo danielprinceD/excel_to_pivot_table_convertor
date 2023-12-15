@@ -42,3 +42,13 @@ else :
 index = str(index).rstrip()
 columns = str(columns).rstrip()
 values = str(values).rstrip()
+
+# Try to create a pivot table, exit if the pivot table values are invalid
+
+try : 
+    pt = df.pivot_table(index=index , columns=columns ,values =values ,aggfunc=function)
+except : 
+    print("Enter Valid Pivot table Values")
+    exit()
+
+
