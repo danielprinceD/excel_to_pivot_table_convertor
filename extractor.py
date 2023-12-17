@@ -52,6 +52,7 @@ except :
     exit()
 
 
+# Define the file path for saving the pivot table CSV file
 
 file_name = os.path.dirname((sys.executable))
 
