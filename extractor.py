@@ -50,6 +50,7 @@ except :
 
 file_name = os.path.dirname((sys.executable))
 
+# Convert the pivot table to CSV and save it to the specified file path
 
 f_path = os.path.join(file_name,f'pivot-table{xl_file}')
 
