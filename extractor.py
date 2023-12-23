@@ -6,6 +6,7 @@ import sys,os
 xl_file = input("Enter the Excel file name : ")
 xl_file=str(xl_file) 
 
+# Try to read the Excel file, exit if the file is not found
 
 try : 
     df = pandas.read_excel(f'{xl_file}')
