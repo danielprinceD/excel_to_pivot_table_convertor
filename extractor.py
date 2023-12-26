@@ -26,7 +26,7 @@ values = input("Enter the Value name for pivot table (Case Sensitive) : ")
 function = str(input("Sum / Average / both : ")).lower()
 
 
-
+# Convert user input to valid pivot table aggregation function
 
 if function == 'sum' : 
     function = 'sum'
