@@ -37,6 +37,7 @@ elif function == 'both' :
 else : 
     print("Enter Valid Option") 
 
+# Remove any trailing whitespaces from the user input
 
 index = str(index).rstrip()
 columns = str(columns).rstrip()
