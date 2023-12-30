@@ -39,9 +39,9 @@ else :
 
 # Remove any trailing whitespaces from the user input
 
-index = str(index)
-columns = str(columns)
-values = str(values)
+index = str(index).rstrip()
+columns = str(columns).rstrip()
+values = str(values).rstrip()
 
 # Try to create a pivot table, exit if the pivot table values are invalid
 
