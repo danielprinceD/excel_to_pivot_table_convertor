@@ -1,6 +1,6 @@
 import pandas 
 import sys,os
-#import pandas for data processing and os for system file management
+#import pandas for data processing
 # Ask the user to input the Excel file name
 
 xl_file = input("Enter the Excel file name : ")
